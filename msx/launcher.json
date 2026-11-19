@@ -1,0 +1,57 @@
+{
+  "name": "TV Launcher",
+  "version": "1.0.0",
+  "type": "pages",
+  "headline": "Что смотрим",
+  "restore": true,
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "anilibria",
+          "type": "separate",
+          "layout": "0,0,4,4",
+          "color": "#b3261e",
+          "icon": "msx-white:play-circle",
+          "iconSize": "large",
+          "title": "AniLibria",
+          "titleFooter": "Аниме — новинки, популярное, расписание, поиск",
+          "action": "start",
+          "data": {
+            "name": "AniLibria",
+            "version": "2.0.1",
+            "parameter": "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html"
+          }
+        },
+        {
+          "id": "kinowatch",
+          "type": "separate",
+          "layout": "4,0,4,4",
+          "color": "#1f6feb",
+          "icon": "msx-white:movie",
+          "iconSize": "large",
+          "title": "kino.watch",
+          "titleFooter": "Фильмы и сериалы (kino.pub)",
+          "action": "start",
+          "data": {
+            "name": "kino.watch",
+            "version": "6.6.6",
+            "parameter": "menu:https://kp-msx.fly.dev/msx/menu?id={ID}",
+            "welcome": "none"
+          }
+        },
+        {
+          "id": "reload",
+          "type": "separate",
+          "layout": "8,0,4,4",
+          "color": "#1F262D",
+          "icon": "msx-white-soft:autorenew",
+          "iconSize": "large",
+          "title": "Обновить",
+          "titleFooter": "Перезагрузить лаунчер",
+          "action": "reload"
+        }
+      ]
+    }
+  ]
+}
