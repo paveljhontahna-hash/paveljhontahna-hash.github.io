@@ -1,6 +1,6 @@
 {
   "name": "TV Launcher",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "pages",
   "headline": "Что смотрим",
   "restore": true,
@@ -17,11 +17,11 @@
           "title": "Lampa", "titleFooter": "Каталог КП/TMDB, онлайн-источники",
           "action": "link:http://lampa.mx" },
         { "id": "prisma", "type": "separate", "layout": "0,3,4,3", "color": "#00695c", "icon": "msx-white:theaters", "iconSize": "large",
-          "title": "Prisma.TV", "titleFooter": "Фильмы и сериалы онлайн",
+          "title": "Prisma.TV", "titleFooter": "Нужен аккаунт (платный)",
           "action": "content:http://prisma.ws/msx/start.json" },
         { "id": "lift", "type": "separate", "layout": "4,3,4,3", "color": "#37474f", "icon": "msx-white:local-movies", "iconSize": "large",
           "title": "Lift", "titleFooter": "Фильмы и сериалы онлайн",
-          "action": "menu:request:interaction:menu@http://lift3.ws/msx/" },
+          "action": "menu:request:interaction:menu@https://lift3.ws/msx/" },
         { "id": "reload", "type": "separate", "layout": "8,3,4,3", "color": "#1F262D", "icon": "msx-white-soft:autorenew", "iconSize": "large",
           "title": "Обновить", "titleFooter": "Перезагрузить лаунчер",
           "action": "reload" }
