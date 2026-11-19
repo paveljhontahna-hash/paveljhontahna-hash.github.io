@@ -1,6 +1,6 @@
 {
   "name": "TV Launcher",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "pages",
   "headline": "Что смотрим",
   "restore": true,
@@ -16,12 +16,7 @@
           "iconSize": "large",
           "title": "AniLibria",
           "titleFooter": "Аниме — новинки, популярное, расписание, поиск",
-          "action": "start",
-          "data": {
-            "name": "AniLibria",
-            "version": "2.0.1",
-            "parameter": "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html"
-          }
+          "action": "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html"
         },
         {
           "id": "kinowatch",
@@ -32,13 +27,7 @@
           "iconSize": "large",
           "title": "kino.watch",
           "titleFooter": "Фильмы и сериалы (kino.pub)",
-          "action": "start",
-          "data": {
-            "name": "kino.watch",
-            "version": "6.6.6",
-            "parameter": "menu:https://kp-msx.fly.dev/msx/menu?id={ID}",
-            "welcome": "none"
-          }
+          "action": "menu:https://kp-msx.fly.dev/msx/menu?id={ID}"
         },
         {
           "id": "reload",
