@@ -1,45 +1,30 @@
 {
   "name": "TV Launcher",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "pages",
   "headline": "Что смотрим",
   "restore": true,
   "pages": [
     {
       "items": [
-        {
-          "id": "anilibria",
-          "type": "separate",
-          "layout": "0,0,4,4",
-          "color": "#b3261e",
-          "icon": "msx-white:play-circle",
-          "iconSize": "large",
-          "title": "AniLibria",
-          "titleFooter": "Аниме — новинки, популярное, расписание, поиск",
-          "action": "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html"
-        },
-        {
-          "id": "kinowatch",
-          "type": "separate",
-          "layout": "4,0,4,4",
-          "color": "#1f6feb",
-          "icon": "msx-white:movie",
-          "iconSize": "large",
-          "title": "kino.watch",
-          "titleFooter": "Фильмы и сериалы (kino.pub)",
-          "action": "menu:https://kp-msx.fly.dev/msx/menu?id={ID}"
-        },
-        {
-          "id": "reload",
-          "type": "separate",
-          "layout": "8,0,4,4",
-          "color": "#1F262D",
-          "icon": "msx-white-soft:autorenew",
-          "iconSize": "large",
-          "title": "Обновить",
-          "titleFooter": "Перезагрузить лаунчер",
-          "action": "reload"
-        }
+        { "id": "anilibria", "type": "separate", "layout": "0,0,4,3", "color": "#b3261e", "icon": "msx-white:play-circle", "iconSize": "large",
+          "title": "AniLibria", "titleFooter": "Аниме",
+          "action": "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html" },
+        { "id": "kinowatch", "type": "separate", "layout": "4,0,4,3", "color": "#1f6feb", "icon": "msx-white:movie", "iconSize": "large",
+          "title": "kino.watch", "titleFooter": "Фильмы и сериалы (kino.pub)",
+          "action": "menu:https://kp-msx.fly.dev/msx/menu?id={ID}" },
+        { "id": "lampa", "type": "separate", "layout": "8,0,4,3", "color": "#6a1b9a", "icon": "msx-white:lightbulb", "iconSize": "large",
+          "title": "Lampa", "titleFooter": "Каталог КП/TMDB, онлайн-источники",
+          "action": "link:http://lampa.mx" },
+        { "id": "prisma", "type": "separate", "layout": "0,3,4,3", "color": "#00695c", "icon": "msx-white:theaters", "iconSize": "large",
+          "title": "Prisma.TV", "titleFooter": "Фильмы и сериалы онлайн",
+          "action": "content:http://prisma.ws/msx/start.json" },
+        { "id": "lift", "type": "separate", "layout": "4,3,4,3", "color": "#37474f", "icon": "msx-white:local-movies", "iconSize": "large",
+          "title": "Lift", "titleFooter": "Фильмы и сериалы онлайн",
+          "action": "menu:request:interaction:menu@http://lift3.ws/msx/" },
+        { "id": "reload", "type": "separate", "layout": "8,3,4,3", "color": "#1F262D", "icon": "msx-white-soft:autorenew", "iconSize": "large",
+          "title": "Обновить", "titleFooter": "Перезагрузить лаунчер",
+          "action": "reload" }
       ]
     }
   ]
