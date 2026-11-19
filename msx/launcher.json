@@ -1,6 +1,6 @@
 {
     "name":  "TV Launcher",
-    "version":  "1.4.0",
+    "version":  "1.5.0",
     "type":  "pages",
     "headline":  "Что смотрим",
     "restore":  true,
@@ -11,10 +11,10 @@
                                     {
                                         "id":  "anilibria",
                                         "type":  "separate",
-                                        "layout":  "0,0,4,2",
+                                        "layout":  "0,0,4,3",
                                         "color":  "#b3261e",
                                         "icon":  "msx-white:play-circle",
-                                        "iconSize":  "medium",
+                                        "iconSize":  "large",
                                         "title":  "AniLibria",
                                         "titleFooter":  "Аниме",
                                         "action":  "menu:request:interaction:menu@https://tsesarevitsch.github.io/plugin.html"
@@ -22,43 +22,21 @@
                                     {
                                         "id":  "kinowatch",
                                         "type":  "separate",
-                                        "layout":  "4,0,4,2",
+                                        "layout":  "4,0,4,3",
                                         "color":  "#1f6feb",
                                         "icon":  "msx-white:movie",
-                                        "iconSize":  "medium",
+                                        "iconSize":  "large",
                                         "title":  "kino.watch",
                                         "titleFooter":  "kino.pub",
                                         "action":  "menu:https://kp-msx.fly.dev/msx/menu?id={ID}"
                                     },
                                     {
-                                        "id":  "atodo",
-                                        "type":  "separate",
-                                        "layout":  "8,0,4,2",
-                                        "color":  "#00695c",
-                                        "icon":  "msx-white:theaters",
-                                        "iconSize":  "medium",
-                                        "title":  "Atodo",
-                                        "titleFooter":  "Бесплатно, без аккаунта",
-                                        "action":  "menu:request:interaction:menu@http://atodo.fun/fun.html"
-                                    },
-                                    {
-                                        "id":  "lampaskaz",
-                                        "type":  "separate",
-                                        "layout":  "0,2,4,2",
-                                        "color":  "#6a1b9a",
-                                        "icon":  "msx-white:lightbulb",
-                                        "iconSize":  "medium",
-                                        "title":  "Lampa (bySkaz)",
-                                        "titleFooter":  "С готовыми источниками",
-                                        "action":  "link:http://lampa.byskaz.ru"
-                                    },
-                                    {
                                         "id":  "store",
                                         "type":  "separate",
-                                        "layout":  "4,2,4,2",
+                                        "layout":  "8,0,4,3",
                                         "color":  "#37474f",
                                         "icon":  "msx-white:apps",
-                                        "iconSize":  "medium",
+                                        "iconSize":  "large",
                                         "title":  "Магазин NoName",
                                         "titleFooter":  "49 приложений — пробовать любое",
                                         "action":  "content:http://msx.nnmtv.pw/msx/menu.json"
@@ -66,10 +44,10 @@
                                     {
                                         "id":  "prisma",
                                         "type":  "separate",
-                                        "layout":  "8,2,4,2",
+                                        "layout":  "0,3,4,3",
                                         "color":  "#546e7a",
                                         "icon":  "msx-white:theaters",
-                                        "iconSize":  "medium",
+                                        "iconSize":  "large",
                                         "title":  "Prisma.TV",
                                         "titleFooter":  "Нужен аккаунт (платный)",
                                         "action":  "content:http://prisma.ws/msx/start.json"
@@ -77,10 +55,10 @@
                                     {
                                         "id":  "reload",
                                         "type":  "separate",
-                                        "layout":  "0,4,4,2",
+                                        "layout":  "4,3,4,3",
                                         "color":  "#1F262D",
                                         "icon":  "msx-white-soft:autorenew",
-                                        "iconSize":  "medium",
+                                        "iconSize":  "large",
                                         "title":  "Обновить",
                                         "titleFooter":  "Перезагрузить лаунчер",
                                         "action":  "reload"
